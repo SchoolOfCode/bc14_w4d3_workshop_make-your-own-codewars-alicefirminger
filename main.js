@@ -8,11 +8,9 @@ Each vampire has a different strength represented by the length of their name. B
 
 Your function should take in a vampire's name as a string and return the number of stakes Buffy needs to defeat them. 
 
-Note: Make sure to handle uppercase and lowercase letters in the vampire's names.
-
 */
 
 // //👉 Write the function your CodeWarriors will start with below here:
- export function buffyStakes(vampireName) {
-    
-  }
+export function buffyStakes(vampireName) {
+  return 
+}

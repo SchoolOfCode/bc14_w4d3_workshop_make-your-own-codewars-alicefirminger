@@ -8,7 +8,7 @@ test ("Check the number of letters in the name Spike", () => {
     expect(buffyStakes(vampireName)).toBe(5);
 });
 
-test ("Check the number of letters in the name Angelus", () => {
+test ("Check the number of letters in the name angelus", () => {
     const vampireName = "Angelus";
     expect(buffyStakes(vampireName)).toBe(7);
 });
@@ -18,23 +18,23 @@ test ("Check the number of letters in the name Drusilla", () => {
     expect(buffyStakes(vampireName)).toBe(8);
 });
 
-test ("Check the number of letters in the name Darla", () => {
+test ("Check the number of letters in the name DARLA", () => {
     const vampireName = "Darla";
     expect(buffyStakes(vampireName)).toBe(5);
 });
 
-// test ("Check the number of letters in the name Darla", () => {
-//     const vampireName = "";
-//     expect(vampireName.length).toBe("undefined");
-// });
-// test ('Check for upper and lowercase letters'), () => {
-//     const 
-// }
+test('Return 0 when the name is an empty string', () => {
+    expect(buffyStakes("")).toBe(0);
+});  
 
-// test ('Check for an empty string')
 
-// test ('Check for undefined input')
+   
 
-// test ('Check for null input')
 
-// test ('Check for names that include numbers or symbols')
+
+// test('should return correct number of stakes for mixed case input', () => {
+//     expect(buffyStakes('Buffy')).toBe(5);
+//     expect(buffyStakes('ANGEL')).toBe(5);
+//     expect(buffyStakes('SpIkE')).toBe(5);
+//     expect(buffyStakes('Willow')).toBe(6);
+//   }); example from chat GPT
