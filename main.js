@@ -12,7 +12,7 @@ Note: Make sure to handle uppercase and lowercase letters in the vampire's names
 
 */
 
-//👉 Write the function your CodeWarriors will start with below here:
-export function vampireSlaying (vampireName) {
-    //your code here
-}
+// //👉 Write the function your CodeWarriors will start with below here:
+ export function buffyStakes(vampireName) {
+    
+  }
